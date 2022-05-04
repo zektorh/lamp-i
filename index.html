@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&display=swap" rel="stylesheet">
+    
+    <meta http-equiv="X-UA-Compatible" content="width=device-width", initial-scale=1.0>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="D:/helo/style.css"> 
+</head>
+<body>
+ <div class="hero">
+<nav>
+    <img src="D:/helo/images/menu.png" class="menu-img">
+    <img src="D:/helo/images/logo.png" class="logo">
+    <ul >
+        <li> <a class="from" href="">اخبار</a></li>
+        <li> <a class="from" href="">درباره ما</a></li>
+        <li> <a class="from" href="">راه های ارطباطی</a></li>
+        <li> <a class="from" href="">لامپ</a></li>
+    </ul>
+    <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+</nav>
+
+<div class="lamp-container">
+    <img src="D:/helo/images/lamp.png" class="lamp">
+    <img src="D:/helo/images/light.png" class="light" id="light">
+</div>
+
+<div class="text-h">
+    <h1>hossein azimi</h1>
+    <p class="text">سلام این یک نمونه سایت برای نشون دادن توانایی های من در توسعه وب  است</p>
+    <a href="https://www.youtube.com/channel/UC6myLpRqNc-dVZRhACfz6nw">cheke out my youtube channel</a>
+<div class="control">
+    <p>04</p>
+    <div class="line"><span></span></div>
+    <p>05</p>
+</div>    
+</div>
+
+
+ </div> 
+ 
+ <script>
+     var btn = document.getElementById("btn");
+     var light = document.getElementById("light");
+
+     function toggleBtn(){
+          btn.classList.toggle("active");
+          light.classList.toggle("on");
+     }
+ </script>
+</body>
+</html>
